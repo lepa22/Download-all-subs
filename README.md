@@ -9,7 +9,7 @@ Both scripts must have execute permission. You can give execute permission to a 
 
 Then, simply run **sub_download.sh** using terminal in your videos directory.
 
-Alternatively, if you are using the MATE DE and Caja file manager, you can place **sub_download.sh** in **~/.local/share/scripts/** and **Download_all_subs** script in **~/.config/Caja/scripts**. Then you can right click in your videos folder and select *Scripts > Download_all_subs**.
+Alternatively, if you are using the MATE DE and Caja file manager, you can place **sub_download.sh** in *~/.local/share/scripts/* and **Download_all_subs** script in *~/.config/Caja/scripts*. Then you can right click in your videos folder and select *Scripts > Download_all_subs*.
 
 ## Prerequisites:
 
