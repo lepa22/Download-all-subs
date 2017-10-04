@@ -1,0 +1,3 @@
+#!/bin/bash
+
+mate-terminal -e 'bash -c "/home/lepa/.local/my_scripts/sub_download.sh; exec bash"'
