@@ -1,6 +1,6 @@
 # Download-all-subs
 
-Bash scripts to download subtitles for all video files in a folder using subliminal.
+Bash scripts to download greek and english subtitles for all video files in a folder using subliminal.
 
 ## How to use
 
