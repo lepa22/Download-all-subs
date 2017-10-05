@@ -28,6 +28,6 @@ for file in $videos
     printf "\n"
   done
 
-printf "\nDownload finished successfully.\n"
+printf "\nDownload finished successfully. You can now close this window.\n"
 
 exit 0
