@@ -13,9 +13,6 @@ Alternatively, if you are using the Gnome DE and Nautilus file manager, you can 
 
 After that restart Nautilus and then you can right click in your videos folder and select *Scripts > Download_all_subs*.
 
-You may have to modify the subliminal path. You can find it by running `which subliminal`
-
-
 ## Prerequisites:
 
 To use the scripts, subliminal must be installed.
@@ -28,5 +25,5 @@ To use the scripts, subliminal must be installed.
 
   `sudo apt install python-pip`
   
-* You may have to modify the subliminal path in **sub_download.sh**. You can find it by running `which subliminal`
+* You may have to modify the subliminal path in **sub_download.sh**. You can find it by running `which subliminal` in a terminal.
 
