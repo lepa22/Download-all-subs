@@ -24,7 +24,8 @@ for file in $videos
   do
     # ${file##*/} shows only basename of file (name without path)
     printf "Downloading subtitles for:\n\"${file##*/}\""
-    subliminal download -l en -l el $file
+    # modify subliminal path using which subliminal
+    /home/lepa/.anaconda3/bin/subliminal download -l en -l el $file
     printf "\n"
   done
 
