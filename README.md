@@ -9,9 +9,11 @@ Both scripts must have execute permission. You can give execute permission to a 
 
 Then, simply run **sub_download.sh** using terminal in your videos directory.
 
-Alternatively, if you are using the MATE DE and Caja file manager, you can place **sub_download.sh** in *~/.local/share/my_scripts/* (you must create my_scripts folder) and **Download_all_subs** script in *~/.config/Caja/scripts/*. 
+Alternatively, if you are using the Gnome DE and Nautilus file manager, you can place **sub_download.sh** in *~/.local/share/my_scripts/* (you must create my_scripts folder) and **Download_all_subs** script in *~/.local/share/nautilus/scripts/*. 
 
-After that restart Caja and then you can right click in your videos folder and select *Scripts > Download_all_subs*.
+After that restart Nautilus and then you can right click in your videos folder and select *Scripts > Download_all_subs*.
+
+You may have to modify the subliminal path. You can find it by running `which subliminal`
 
 
 ## Prerequisites:
@@ -25,3 +27,6 @@ To use the scripts, subliminal must be installed.
 * If pip is not installed you can install it by running:
 
   `sudo apt install python-pip`
+  
+* You may have to modify the subliminal path in **sub_download.sh**. You can find it by running `which subliminal`
+
